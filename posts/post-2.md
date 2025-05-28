@@ -277,12 +277,11 @@ const ImageContainer = styled.div`
 ```
 
 단순히 column-count와 gap으로만 그리드를 조절했다. 여기에서 문제는 스크롤을 내리고 다음 이미지가 불러와질 때, 높이값이 재조정되면서 이미 로드된 이미지가 고정되어 있지 않고, 움직인다는 것이다.
-
-<video src="images/post-2/3.mp4" controls width="100%" />
+![alt text](/images/post-2/3.mp4)
 
 스터디원의 코드와 추가로 grid 관련 글을 보고 코드를 수정했다. 위에서 수정된 코드를 볼 수 있다. 스켈레톤도 자연스럽게 잘 나오는 것을 볼 수 있다.
 
-<video src="images/post-2/4.mp4" controls width="100%" />
+![alt text](/images/post-2/4.mp4)
 
 개선해볼 사항은 성능이다. openAPI를 사용하고 있어서 이미지를 불러오는데 제한이 있기는 하지만 조금 더 최적화 요소를 찾아보면 좋을 것 같다.
 
