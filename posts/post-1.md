@@ -148,5 +148,7 @@ React Query와 Suspense를 함께 사용할 때, 선언형 프로그래밍이 �
 
 Skeleton UI를 적용시키는 부분에서 Skeleton 위에 이미지가 그대로 나타나야 하는데 로딩되는 과정에서 위치가 이리저리 움직이는 현상이 나타났다. 이 부분에 대해서는 처음에는 css의 visibility 속성을 사용했다. 로드가 완료되면 이미지가 나타나게 설정해주었다. 그런데 문제가 있었다. skeleton -> skeleton 사라짐 -> 이미지 나타남 이런 과정이 되었다. skeleton이 사라지는 것을 막기 위해 visibility 속성 대신 opacity 속성을 사용했다. 이렇게 변경하니 문제가 해결되었다.
 
-
+<br />
+<br />
+<br />
 참고: [명령형 vs 선언형 프로그래밍](https://lasbe.tistory.com/160)
