@@ -9,16 +9,13 @@ desc: "구현 및 최적화 스터디 4"
 
 ## 1. 로그인, 회원가입 UI 구현
 
-<div style="display: flex;">
-  <img src="/images/post-4/1.png" alt="alt text" width="300" />
-  <img src="/images/post-4/2.png" alt="alt text" width="300" />
-</div>
+![alt text](/images/post-4/1.png)
+![alt text](/images/post-4/2.png)
 
  
 ## 2. Firebase 연동
 firebase 가입한 뒤, 프로젝트 생성해주고 기타 설정해준다.
 
-<br />
 
 ```
 //firebase.ts
@@ -52,10 +49,10 @@ export default app;
 
 ![alt text](/images/post-4/3.png)
  
+<br />
 
 useFirebaseLogin.ts hook 만들어서 firebase 로그인관련 코드는 따로 분리해주었다.
 
-<br />
 
 ```
 import { useState } from 'react';
@@ -113,7 +110,7 @@ export const useFirebaseLogin = () => {
 ## 4. 로그인, 회원가입 유효성 검사
 react-hook-form과 yup 라이브러리를 사용해서 유효성 검사를 구현했다.
 
-<br />
+
 
 ```
 import React from 'react';
@@ -193,10 +190,8 @@ export default function SignUp() {
 
 ```
  
-<div style="display: flex;">
-  <img src="/images/post-4/4.png" alt="alt text" width="300" />
-  <img src="/images/post-4/5.png" alt="alt text" width="300" />
-</div>
+![alt text](/images/post-4/4.png)
+![alt text](/images/post-4/5.png)
 
 
 ## 5. 유저 정보 불러오기 - 이름, 프로필 사진
